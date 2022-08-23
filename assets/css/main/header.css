@@ -1,0 +1,34 @@
+.header__logo {
+    color: black;
+    font-size: 2.3em !important;
+}
+
+@media (min-width: 992px) {
+	.header__mobile {
+		display: none!important;
+	}
+}
+
+@media (max-width: 991px) {
+	.header__pc {
+		display: none!important;
+	}
+}
+
+.text-muted--link{
+	color: #6c757d !important;
+	transition: .5s;
+}
+
+.text-muted--link:hover{
+	color: #000000 !important;
+}
+
+.svg{
+	fill: #6c757d;
+	transition: .5s;
+}
+
+.svg:hover{
+	fill: #000000;
+}

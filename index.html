@@ -1,0 +1,117 @@
+<!--
+
+  Файл html сайта indiegamesstudio.github.io
+  Задача: главная страница сайта
+  Язык: html
+
+  Дыбка Даниил Викторович
+  daniil@dybka.ru
+
+-->
+
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="theme-color" content="#ffffff">
+  <meta name="robots" content="index">
+
+  <title>Главная страница</title>
+
+  <meta name="description" content="Главная страница команды разработчиков Kaio">
+  <meta name="keywords" content="kaio, кайо, kaio gamedev, кайо геймдев, kaio games, кайо игры">
+
+  <link rel="stylesheet" href="/assets/css/bootstrap.css" />
+  <link rel="stylesheet" href="/assets/css/app.css" />
+
+  <link rel="icon" href="/assets/img/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+
+  <!-- header -->
+  <header class="container pt-3 pb-5">
+    <div class="d-flex flex-wrap justify-content-center align-items-center">
+      <a href="/" class="d-flex me-auto align-items-center text-decoration-none">
+        <img class="flex-shrink-0 rounded-circle" src="/assets/img/logo/logo.png" width="80" height="80"
+          alt="Логотип IGS">
+        <div class="logo ms-4 display-5 text-dark m-0">Snake App Studio</div>
+      </a>
+      <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+        <!-- <li class="nav-item"><a href="#" class="nav-link text-dark underline fs-5 text-muted--link">Главная страница</a></li> -->
+        <li class="nav-item"><a href="/games.html" class="nav-link text-dark underline fs-5 text-muted--link px-5 ps-0">Игры</a></li>
+        <li class="nav-item"><a href="/more.html" class="nav-link text-dark underline fs-5 text-muted--link px-5">Подробнее</a></li>
+        <li class="nav-item"><a href="/look.html" class="nav-link text-dark underline fs-5 text-muted--link px-5 pe-0">Связаться</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- main -->
+  <main class="container">
+    <div class="px-4 pt-5 my-5 text-center">
+      <h1 class="display-4 fw-bold">За это нам не стыдно!</h1>
+      <div class="col-lg-6 mx-auto">
+        <p class="lead mb-4">
+          Потому что вкладываем душу в наши игры, которые выпускаем в сеть. Чуть какая проблема - сразу
+          же садимся за ее решение, пока не выйдет исправить!
+        </p>
+        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+          <a href="/games.html" type="button" class="btn btn-primary btn-lg px-4 me-sm-3">Список игр</a>
+          <a href="#link" type="button" class="btn btn-outline-secondary btn-lg px-4">Игры на Яндексе</a>
+        </div>
+      </div>
+      <div class="overflow-hidden" style="max-height: 30vh;">
+        <div class="container px-5">
+          <img src="/assets/img/logo/screen.jpg" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image" width="700"
+            height="500" loading="lazy">
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- footer -->
+  <footer class="container pt-5 mb-5">
+    <div class="d-flex flex-wrap justify-content-center align-items-center">
+      <div class="me-auto">
+        <div class="d-flex flex-column">
+          <a href="/" class="d-flex align-items-center text-decoration-none">
+            <img class="flex-shrink-0 rounded-circle" src="/assets/img/logo/logo.png" width="60" height="60"
+              alt="Логотип IGS">
+            <div class="logo fs-3 text-dark ms-3 m-0">Snake App Studio</div>
+          </a>
+        </div>
+        <ul class="nav col-12 pt-2 px-0">
+          <li class="nav-item"><a href="/" class="nav-link text-dark underline fs-6 ms-0 ps-0">Главная</a></li>
+          <li class="nav-item"><a href="/games.html" class="nav-link underline text-muted--link text-dark fs-6 ms-0 ps-0">Игры</a></li>
+          <li class="nav-item"><a href="/more.html" class="nav-link underline text-muted--link text-dark fs-6 ms-0 ps-0">Подробнее</a></li>
+          <li class="nav-item"><a href="/look.html" class="nav-link underline text-muted--link text-dark fs-6 ms-0 ps-0">Связаться</a></li>
+        </ul>
+        <ul class="nav col-12">
+          <li class="nav-item"><a href="#" class="nav-link text-dark underline fs-6 ps-0 py-0 text-muted--link">Наши игры</a></li>
+          <li class="nav-item"><a href="#" class="nav-link text-dark underline fs-6 ms-0 py-0 text-muted--link">+7 (xxx) xxx-xx-xx</a></li>
+          <li class="nav-item"><a href="#" class="nav-link text-dark underline fs-6 py-0 text-muted--link">mailto: xx@xx.xx</a></li>
+          <li class="nav-item"><a href="#" class="nav-link text-dark underline fs-6 py-0 text-muted--link">Телеграм</a></li>
+          <li class="nav-item"><a href="#" class="nav-link text-dark underline fs-6 py-0 text-muted--link">ВК</a></li>
+        </ul>
+      </div>
+      <div>
+        <div class="d-flex justify-content-center flex-column bd-highlight">
+          <p class="m-0 fs-6 text-end">Сайт разработан командой <b><a class="text-dark underline" href="//creagoo.ru">Creagoo</a></b>
+          </p>
+          <div class="my-2 text-center">
+            <a href="//creagoo.ru">
+              <img src="/assets/img/logo/creagoo.svg" class="img-fluid" width="220" alt="Логотип команды Creagoo">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>

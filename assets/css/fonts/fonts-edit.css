@@ -1,0 +1,48 @@
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6
+{
+    font-family: SpaceGrotesk;
+}
+
+* {
+    font-family: Inter-Regular;
+}
+
+/* .fw-bold, b {
+    font-family: Inter-Bold !important;
+} */
+
+h1 b,
+h2 b,
+h3 b,
+h4 b,
+h5 b,
+h6 b,
+.h1 b,
+.h2 b,
+.h3 b,
+.h4 b,
+.h5 b,
+.h6 b {
+    font-family: SpaceGrotesk-Bold;
+}
+
+h1 .fw-bold,
+h2 .fw-bold,
+h3 .fw-bold,
+h4 .fw-bold,
+h5 .fw-bold,
+h6 .fw-bold,
+.h1 .fw-bold,
+.h2 .fw-bold,
+.h3 .fw-bold,
+.h4 .fw-bold,
+.h5 .fw-bold,
+.h6 .fw-bold {
+    font-family: SpaceGrotesk-Bold;
+}
+
+.logo {
+    font-family: Generator;
+    margin-top: 5px!important;
+}
